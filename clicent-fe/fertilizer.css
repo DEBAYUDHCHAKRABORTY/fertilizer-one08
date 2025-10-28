@@ -1,4 +1,26 @@
-#heading{
-    
-    padding-right: 400px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    
+    
+}
+
+.table, th, td {
+  border: 1px solid;
+  padding: 5px 5px 10px;
+   background-color: lightgray;
+}
+#img{
+  display: block;
+  margin: auto;
+  width: 50%;
+  
+}
+
+
