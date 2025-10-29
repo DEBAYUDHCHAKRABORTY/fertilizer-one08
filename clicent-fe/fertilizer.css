@@ -1,26 +1,49 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .container {
-    max-width: 750px;
-    margin: auto;
-    
-    
+  max-width: 500px;
+  margin: auto;
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 10px;
+
 }
 
-.table, th, td {
+.table,
+th,
+td {
   border: 1px solid;
   padding: 5px 5px 10px;
-   background-color: lightgray;
+  background-color: rgb(234, 230, 230);
 }
-#img{
+#img {
   display: block;
   margin: auto;
   width: 50%;
-  
 }
 
-
+#photo {
+  margin: auto;
+  width: 8%;
+}
+#photo4{
+ margin: auto;
+  width: 15%;
+}
+#photo3{
+   margin: auto;
+  width: 10%;
+}
+#photo1{
+   margin: auto;
+  width: 6%;
+}
+#lekha,
+.lekha1{
+  color: blue;
+  border-color: black;
+}
