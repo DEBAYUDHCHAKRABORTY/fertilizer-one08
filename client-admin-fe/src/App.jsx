@@ -1,4 +1,5 @@
 import './App.css'
+import DemoDetail from './pages/afterSearch'
 import AdminPage from './pages/homepage'
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
   return (
     <>
       <AdminPage/>
+      <DemoDetail/>
     </>
   )
 }
