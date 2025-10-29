@@ -5,13 +5,29 @@ import logo from "./logo.jpg";
 export default function AdminPage() {
   return (
     <>
+      <div style={{ backgroundColor: '#e4e8ddff', padding: "20px", borderRadius: '20px' }}>
+
+        <h1 style={{ color: 'black' }}>
+          <u>Fertilizer Admin Panel</u>
+        </h1>
+
+        <br />
+        <div style={{}}>
+          <Button
+            icon="pi pi-plus"
+            label="New QR Code"
+            style={{ marginLeft: "20px", borderColor: "black", backgroundColor: 'white' }}
+          />
+        </div>
+        <div
+
       <div
         style={{
           backgroundColor: "#EEEEEE",
           padding: "20px",
           borderRadius: "20px",
         }}
-      >
+      
         <img
           src={logo}
           alt="200px"
@@ -23,6 +39,19 @@ export default function AdminPage() {
             width: "200px",
             position: "relative",
           }}
+ style-pankaj
+        >
+          <InputText
+            type="text"
+            placeholder="Enter SL NO."
+            style={{ color: "black", width: "300px", borderColor: '' }}
+          />
+          <Button
+            icon="pi pi-search"
+            label="Search"
+            style={{ color: "black", borderColor: "black", backgroundColor: 'white' }}
+          />
+
         />
         <div style={{position:'relative', bottom:'100px'}}>
           <h1 style={{ color: "black" }}>
@@ -46,7 +75,7 @@ export default function AdminPage() {
             style={{
               marginTop: "30px",
             }}
-          >
+          
             <InputText
               type="text"
               placeholder="Enter Unique Identifier No."
