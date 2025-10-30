@@ -3,11 +3,11 @@ import logo from "./demoData.jpg";
 export default function DemoDetail() {
   return (
     <>
-      <div>
-        <h1>
+      <div style={{ marginTop:'20px'}}>
+        <h1 className="text-4xl font-semibold">
           <u>Searched Product</u>
         </h1>
-        <img src={logo} alt="20px" width="400px" />
+        <img src={logo} alt="20px" width="400px" style={{display:'flex' , justifyContent:'center', margin:'auto' , marginTop:'30px' , marginBottom:'30px'}} />
         <div>
           <table
             style={{
@@ -103,7 +103,7 @@ export default function DemoDetail() {
                 <th style={{ padding: "15px", borderRight: "1px solid" }}>
                   Label information
                 </th>
-                <td style={{ padding: "5px 10px" }}>
+                <td style={{ padding: "5px 10px" , color:'blue' , cursor:'pointer'}}>
                   Click here to view product Label
                 </td>
               </tr>
@@ -111,7 +111,7 @@ export default function DemoDetail() {
                 <th style={{ padding: "15px", borderRight: "1px solid" }}>
                   Leaflet Information
                 </th>
-                <td style={{ padding: "5px 10px" }}>
+                <td style={{ padding: "5px 10px" , color:'blue' , cursor:'pointer' }}>
                   Click here to view product Leaflet
                 </td>
               </tr>
